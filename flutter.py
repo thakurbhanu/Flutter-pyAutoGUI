@@ -1,5 +1,5 @@
 import pyautogui
-import runFunctions
+import runFunctions, delaySeconds, winPressFun
 
 
 print('Creating Flutter Env...')
@@ -50,4 +50,4 @@ for name in list_of_apps:
     name_timer(name)
 
 # ........................................................................................
-runFunctions.twoSecondDelay('System Monitor')
+runFunctions.twoSecondDelay('Psensor')
