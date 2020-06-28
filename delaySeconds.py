@@ -10,7 +10,7 @@ def threeSecs():
     pyautogui.press('enter')
     pyautogui.sleep(3)
 
-def sixSecs():
+def sevenSecs():
     pyautogui.sleep(1)
     pyautogui.press('enter')
-    pyautogui.sleep(6)
+    pyautogui.sleep(7)

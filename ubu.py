@@ -1,5 +1,5 @@
 import pyautogui
-import runFunctions
+import runFunctions, winPressFun
 
 print('Creating Android Development Environment...')
 
@@ -28,16 +28,19 @@ def name_timer(nm):
         pyautogui
 
     elif nm == 'android studio':
-        runFunctions.sixSecondDelay(nm)
+        runFunctions.sevenSecondDelay(nm)
 
     elif nm == 'github':
-        runFunctions.twoSecondDelay('gitkraken')
+        runFunctions.threeSecondDelay('gitkraken')
         runFunctions.threeSecondDelay(nm)
 
     elif nm == 'terminal':
         runFunctions.forEmulator('flutter emulator --launch pixel')
         runFunctions.forGpuStatistics('watch -n 2 nvidia-smi')
         runFunctions.forSystemMonitor()
+        runFunctions.forPsensor()
+    else:
+        runFunctions.twoSecondDelay(nm)
 
 for name in list_of_apps:
 
@@ -45,3 +48,4 @@ for name in list_of_apps:
     name_timer(name)
 
 # ........................................................................................
+runFunctions.twoSecondDelay('System Monitor')

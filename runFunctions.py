@@ -45,7 +45,13 @@ def threeSecondDelay(threeSeconds):
     pyautogui.typewrite(threeSeconds)
     delaySeconds.threeSecs()
 
-def sixSecondDelay(threeSeconds):
+def sevenSecondDelay(sixSeconds):
     winPressFun.winButtonPress()
-    pyautogui.typewrite(threeSeconds)
-    delaySeconds.sixSecs()
+    pyautogui.typewrite(sixSeconds)
+    delaySeconds.sevenSecs()
+
+
+def forPsensor():
+    winPressFun.winButtonPress()
+    pyautogui.typewrite('Psensor')
+    delaySeconds.threeSecs()
