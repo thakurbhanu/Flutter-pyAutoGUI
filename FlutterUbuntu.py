@@ -1,6 +1,9 @@
 import pyautogui
 import runFunctions
-print('Creating Flutter Env... Press Ctrl + C to ABORT !')
+
+
+print('Creating Flutter Env...')
+print('Press Ctrl + C to ABORT !')
 
 pyautogui.sleep(5)
 
