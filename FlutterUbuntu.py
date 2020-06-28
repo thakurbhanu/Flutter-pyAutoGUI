@@ -1,7 +1,6 @@
 import pyautogui
-import runFunctions, winPressFun
-
-print('Creating Android Development Environment...')
+import runFunctions
+print('Creating Flutter Env...')
 
 pyautogui.sleep(4)
 
@@ -25,7 +24,7 @@ def name_timer(nm):
     elif nm == 'youtube music':
         runFunctions.twoSecondDelay(nm)
         runFunctions.threeSecondDelay('Whatsapp')
-        pyautogui
+        pyautogui.sleep(1)
 
     elif nm == 'android studio':
         runFunctions.sevenSecondDelay(nm)
