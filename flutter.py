@@ -50,4 +50,4 @@ for name in list_of_apps:
     name_timer(name)
 
 # ........................................................................................
-runFunctions.twoSecondDelay('Psensor')
+runFunctions.twoSecondDelay('System Monitor')
